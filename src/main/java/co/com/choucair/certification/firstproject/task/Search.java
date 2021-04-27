@@ -9,10 +9,10 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 
 public class Search implements Task {
-    private String course;
+    private String strCourse;
 
-    public Search(String course){
-        this.course = course;
+    public Search(String strCourse){
+        this.strCourse = strCourse;
     }
     public static Search the(String course) { return Tasks.instrumented(Search.class, course); }
 
@@ -20,7 +20,7 @@ public class Search implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(Click.on( SearchCoursePage.BUTTON_UC),
-                Enter.theValue(course).into(SearchCoursePage.INPUT_COURSE),
+                Enter.theValue(strCourse).into(SearchCoursePage.INPUT_COURSE),
                 Click.on(SearchCoursePage.BUTTON_GO),
                 Click.on(SearchCoursePage.SELECT_COURSE)
         );

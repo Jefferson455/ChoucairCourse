@@ -6,8 +6,10 @@ Feature: Academy Choucair
   @scenario1
   Scenario: Search for a automation course
     Given than brandom wants to learn automation at the academy choucair
-    |strUser|strPassword|
-    When he search for the course Foundation Level on the choucair academy platform
-    |1006513555|Choucair2021*|
-    Then he finds the course called Foundation level
+    | strUser  |strPassword  |
+    | 1006513555 |Choucair2021*|
+    When he search for the course on the choucair academy platform
+    | strCourse  |
+    | Foundation Level |
+    Then he finds the course called Foundation Level
 

@@ -1,10 +1,11 @@
 package co.com.choucair.certification.firstproject.userinterface;
 
+import com.openhtmltopdf.css.parser.property.PrimitivePropertyBuilders;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class SearchCoursePage extends PageObject {
+public class SearchCoursePage {
     public static final Target BUTTON_UC = Target.the("Selecciona la Universidad choucair")
             .located( By.xpath("//div[@id='certificaciones']//strong"));
     public static final Target INPUT_COURSE = Target.the("Buscar el curso")

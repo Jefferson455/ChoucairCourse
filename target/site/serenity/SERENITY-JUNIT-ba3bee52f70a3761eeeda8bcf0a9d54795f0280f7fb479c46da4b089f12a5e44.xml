@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Academy Choucair" skipped="0" tests="1" time="2.17" timestamp="2021-04-22 10:54:17"><testcase name="Search for a automation course"><error message="Index: 0, Size: 0" type="java.lang.IndexOutOfBoundsException">Index: 0, Size: 0</error><system-err>Index: 0, Size: 0&#13;
-co.com.choucair.certification.firstproject.stepdefinitions.ChoucairAcademyStepDefinitions.thanBrandomWantsToLearnAutomationAtTheAcademyChoucair(ChoucairAcademyStepDefinitions.java:31)&#13;
-✽.than brandom wants to learn automation at the academy choucair(src/test/resources/features/academyChoucair.feature:8)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Academy Choucair" skipped="1" tests="1" time="25.22" timestamp="2021-04-26 09:26:25"><testcase name="Search for a automation course"><skipped/></testcase></testsuite>
